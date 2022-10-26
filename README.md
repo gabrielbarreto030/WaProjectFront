@@ -1,4 +1,4 @@
-# Testewaproject
+## Testewaproject
 
 Este projeto foi feito em Angular 14 
 
@@ -8,11 +8,11 @@ Banco de dados sqlite (Não necessita configuração)
 
 Instale o angular na maquina
 
-npm install -g @angular/cli
+#npm install -g @angular/cli
 
 Ao abrir o projeto instale as dependencias
 
-npm install
+#npm install
 
 Execute a WebApi 
 
@@ -20,7 +20,7 @@ Verifique a porta de execução da WebApi e caso necessario altere a porta no ar
 
 Execute o projeto
 
-npm start
+#npm start
 
 O projeto ficará disponível na porta 4200 (Caso n estiver disponível verifique no console a porta de execução)
 
