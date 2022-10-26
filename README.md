@@ -12,7 +12,7 @@ npm install
 
 Execute a WebApi 
 
-## Verifique a porta de execução da WebApi e caso necessario altere a porta no arquivo src/environments/environment.ts
+Verifique a porta de execução da WebApi e caso necessario altere a porta no arquivo src/environments/environment.ts
 
 Execute o projeto
 
