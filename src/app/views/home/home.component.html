@@ -1,0 +1,25 @@
+
+<div class="container">
+
+  <div class="content">
+
+
+<h1>Todo Wa Project</h1>
+
+
+    <section *ngFor="let todo of todos" class="example-section" class="tarefa">
+    <mat-checkbox (change)="updateTodo($event.checked,todo)" [checked]="todo.isReady" class="example-margin"><h2>{{todo.title}}</h2></mat-checkbox>
+    <mat-icon aria-hidden="false" (click)="apagarTodo(todo)" fontIcon="delete"></mat-icon>
+  
+
+  </section>
+    
+
+    <button mat-raised-button color="primary" routerLink="/criar" routerLinkActive="active" ariaCurrentWhenActive="page">Criar tarefa</button>
+
+</div>
+
+</div>
+
+
+

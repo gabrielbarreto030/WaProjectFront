@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="content">
+
+<form [formGroup]="form" >
+<h1>Criar tarefa</h1>
+
+<mat-form-field appearance="outline">
+    <input matInput placeholder="Nome da tarefa"  type="text" formControlName="name">
+</mat-form-field>
+
+
+  <button mat-raised-button color="primary" (click)="criaTodo()" >Criar tarefa</button>
+
+</form>
+</div>
+</div>
