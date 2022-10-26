@@ -1,6 +1,8 @@
 # Testewaproject
 
 Este projeto foi feito em Angular 14 
+A webapi foi feita no Visual Studio 2022
+//Banco de dados sqlite (Não necessita configuração)
 
 Instale o angular na maquina
 
